@@ -6,10 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="925971aa-1567-4579-b8e9-436ee8b8d930" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Static/Methods/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Final/Client.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Static/Methods/CustomMath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Static/Methods/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Static/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Static/Variables/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Static/Methods/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Static/Methods/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Static/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Static/Variables/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +46,11 @@
     "last_opened_file_path": "D:/Projects/Java/LLD"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Static.Methods" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Static.Methods.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Static.Variables.Client" />
