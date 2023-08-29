@@ -1,4 +1,4 @@
-package Static;
+package Static.Variables;
 
 public class Client {
     public static void main(String[] args) {
