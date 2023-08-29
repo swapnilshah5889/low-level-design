@@ -7,6 +7,14 @@
     <list default="true" id="925971aa-1567-4579-b8e9-436ee8b8d930" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Final/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inheritance/BasicOverriding/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inheritance/BasicOverriding/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Inheritance/BasicOverriding/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Polymorphism/BankExample/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Polymorphism/BankExample/Checking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Polymorphism/BankExample/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Polymorphism/BankExample/Current.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Polymorphism/BankExample/Savings.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Polymorphism/Overloading/Client.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Static/Methods/CustomMath.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Static/Methods/Student.java" afterDir="false" />
@@ -52,13 +60,39 @@
       <recent name="Static.Methods" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Static.Methods.Client">
+  <component name="RunManager" selected="Application.Polymorphism.BankExample.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Static.Variables.Client" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Static.Variables.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Inheritance.BasicOverriding.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Inheritance.BasicOverriding.Client" />
+      <module name="LLD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Inheritance.BasicOverriding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Polymorphism.BankExample.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Polymorphism.BankExample.Client" />
+      <module name="LLD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Polymorphism.BankExample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,6 +115,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Polymorphism.BankExample.Client" />
+        <item itemvalue="Application.Inheritance.BasicOverriding.Client" />
         <item itemvalue="Application.Static.Methods.Client" />
         <item itemvalue="Application.Client" />
       </list>
