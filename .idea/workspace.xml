@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="925971aa-1567-4579-b8e9-436ee8b8d930" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/CarMusicSystem/BoseMusicSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/CarMusicSystem/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/CarMusicSystem/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/CarMusicSystem/MusicSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/CarMusicSystem/SonyMusicSystem.java" afterDir="false" />
+    <list default="true" id="925971aa-1567-4579-b8e9-436ee8b8d930" name="Changes" comment="Interfaces: Car music system example">
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/Demo/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/Demo/I.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/Demo/I1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/Demo/I2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Polymorphism/RunTimePolymorphism/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Polymorphism/RunTimePolymorphism/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Polymorphism/BankExample/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Polymorphism/BankExample/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Polymorphism/BankExample/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Polymorphism/BankExample/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Polymorphism/BankExample/Savings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Polymorphism/BankExample/Savings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,24 +47,14 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="Polymorphism.RunTimePolymorphism" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Static.Methods" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Interfaces.CarMusicSystem.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Static.Variables.Client" />
-      <module name="LLD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Static.Variables.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Polymorphism.RunTimePolymorphism.Client">
     <configuration name="Inheritance.BasicOverriding.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Inheritance.BasicOverriding.Client" />
       <module name="LLD" />
@@ -106,6 +94,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Polymorphism.RunTimePolymorphism.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Polymorphism.RunTimePolymorphism.Client" />
+      <module name="LLD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Polymorphism.RunTimePolymorphism.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Static.Methods.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Static.Methods.Client" />
       <module name="LLD" />
@@ -121,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Polymorphism.RunTimePolymorphism.Client" />
         <item itemvalue="Application.Interfaces.CarMusicSystem.Client" />
         <item itemvalue="Application.Polymorphism.BankExample.Client" />
         <item itemvalue="Application.Inheritance.BasicOverriding.Client" />
         <item itemvalue="Application.Static.Methods.Client" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -138,6 +139,18 @@
       <option name="presentableId" value="Default" />
       <updated>1693009922927</updated>
     </task>
+    <task id="LOCAL-00001" summary="Interfaces: Car music system example">
+      <created>1693605615854</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693605615854</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Interfaces: Car music system example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Interfaces: Car music system example" />
   </component>
 </project>
