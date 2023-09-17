@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="925971aa-1567-4579-b8e9-436ee8b8d930" name="Changes" comment="Dependency Inversion: Implemented Bird example with">
-      <change afterPath="$PROJECT_DIR$/src/DependencyInversion/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DependencyInversion/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DependencyInversion/FastFlyator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DependencyInversion/Fly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DependencyInversion/Flyator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DependencyInversion/Peacock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DependencyInversion/SlowFlyator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DependencyInversion/Sparrow.java" afterDir="false" />
+    <list default="true" id="925971aa-1567-4579-b8e9-436ee8b8d930" name="Changes" comment="Dependency Inversion: Implemented Bird example with interfaces and dependency injection">
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Singleton/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Singleton/DBConnThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Singleton/DBConnThread2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Singleton/DBConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +52,7 @@
       <recent name="Static.Methods" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DependencyInversion.Client">
+  <component name="RunManager" selected="Application.DesignPatterns.Singleton.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Polymorphism.IterableTree.Client" />
       <module name="LLD" />
@@ -83,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Interfaces.CarMusicSystem.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interfaces.CarMusicSystem.Client" />
+    <configuration name="DesignPatterns.Singleton.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Singleton.Client" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Interfaces.CarMusicSystem.*" />
+          <option name="PATTERN" value="DesignPatterns.Singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Polymorphism.BankExample.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Polymorphism.BankExample.Client" />
+    <configuration name="Interfaces.CarMusicSystem.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interfaces.CarMusicSystem.Client" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Polymorphism.BankExample.*" />
+          <option name="PATTERN" value="Interfaces.CarMusicSystem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DesignPatterns.Singleton.Client" />
         <item itemvalue="Application.DependencyInversion.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Polymorphism.RunTimePolymorphism.Client" />
         <item itemvalue="Application.Interfaces.CarMusicSystem.Client" />
-        <item itemvalue="Application.Polymorphism.BankExample.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693866328037</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Dependency Inversion: Implemented Bird example with interfaces and dependency injection">
+      <created>1694981506475</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694981506475</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,6 +183,7 @@
     <MESSAGE value="Interfaces: Car music system example" />
     <MESSAGE value="Interfaces: Multilevel and multiple inheritance implemented. &#10;Runtime Polymorphism: Implemented car class that implements comparable interface and that is overriden in the car class." />
     <MESSAGE value="Interface &amp; Polymorphism: Implemented iterable node class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Interface &amp; Polymorphism: Implemented iterable node class" />
+    <MESSAGE value="Dependency Inversion: Implemented Bird example with interfaces and dependency injection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dependency Inversion: Implemented Bird example with interfaces and dependency injection" />
   </component>
 </project>
