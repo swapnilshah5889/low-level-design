@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="925971aa-1567-4579-b8e9-436ee8b8d930" name="Changes" comment="Interfaces: Multilevel and multiple inheritance implemented. &#10;Runtime Polymorphism: Implemented car class that implements comparable interface and that is overriden in the car class.">
-      <change afterPath="$PROJECT_DIR$/src/Polymorphism/IterableTree/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Polymorphism/IterableTree/Node.java" afterDir="false" />
+    <list default="true" id="925971aa-1567-4579-b8e9-436ee8b8d930" name="Changes" comment="Dependency Inversion: Implemented Bird example with">
+      <change afterPath="$PROJECT_DIR$/src/DependencyInversion/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DependencyInversion/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DependencyInversion/FastFlyator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DependencyInversion/Fly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DependencyInversion/Flyator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DependencyInversion/Peacock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DependencyInversion/SlowFlyator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DependencyInversion/Sparrow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +56,7 @@
       <recent name="Static.Methods" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.DependencyInversion.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Polymorphism.IterableTree.Client" />
       <module name="LLD" />
@@ -64,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Inheritance.BasicOverriding.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Inheritance.BasicOverriding.Client" />
+    <configuration name="DependencyInversion.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DependencyInversion.Client" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Inheritance.BasicOverriding.*" />
+          <option name="PATTERN" value="DependencyInversion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DependencyInversion.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Polymorphism.RunTimePolymorphism.Client" />
         <item itemvalue="Application.Interfaces.CarMusicSystem.Client" />
         <item itemvalue="Application.Polymorphism.BankExample.Client" />
-        <item itemvalue="Application.Inheritance.BasicOverriding.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693865746404</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Interface &amp; Polymorphism: Implemented iterable node class">
+      <created>1693866328037</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693866328037</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,6 +179,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Interfaces: Car music system example" />
     <MESSAGE value="Interfaces: Multilevel and multiple inheritance implemented. &#10;Runtime Polymorphism: Implemented car class that implements comparable interface and that is overriden in the car class." />
-    <option name="LAST_COMMIT_MESSAGE" value="Interfaces: Multilevel and multiple inheritance implemented. &#10;Runtime Polymorphism: Implemented car class that implements comparable interface and that is overriden in the car class." />
+    <MESSAGE value="Interface &amp; Polymorphism: Implemented iterable node class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Interface &amp; Polymorphism: Implemented iterable node class" />
   </component>
 </project>
